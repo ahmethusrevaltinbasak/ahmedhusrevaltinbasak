@@ -36,6 +36,7 @@
        {{ partial "excerpt.html" . }}
       {{ end }}
     </ul>
+    {{ template "_internal/disqus.html" . }}
   </aside>
 </div>
 <script src = '{{ "js/autosize.min.js" | absURL }}'></script>
