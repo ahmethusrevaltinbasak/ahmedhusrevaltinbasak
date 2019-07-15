@@ -27,7 +27,7 @@ if(searchQuery){
 }
 
 function executeSearch(searchQuery){
-    $.getJSON( "//ahmethusrevaltinbasak.github.io/ustad/index.json", function( data ) {
+    $.getJSON( "ahmethusrevaltinbasak.github.io/ustad/index.json", function( data ) {
         var pages = data;
         var fuse = new Fuse(pages, fuseOptions);
         var result = fuse.search(searchQuery);
