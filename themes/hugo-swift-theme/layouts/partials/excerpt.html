@@ -1,4 +1,4 @@
-<li class = 'duo post_item'>
+<li class = 'duo post_item' style="{{if eq (.Params.isMenu) "true" }} display:none; {{end}}" >
   <a class = 'show' href='{{ .Permalink }}' title = '{{ .Title }}'
      style = 'background-image: url({{ $.Site.BaseURL }}img/{{ .Params.image }}); justify-content: center; align-items: center; '>
     {{if eq (.Params.image) "" }}
@@ -26,7 +26,6 @@
     <p class = 'pale'>{{ .Summary | truncate 90 }}</p>
   </div>
 </li>
-
 <style>
 
 

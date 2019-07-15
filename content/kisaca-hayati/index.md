@@ -8,6 +8,7 @@ tags = [
 categories = [
     
 ]
+isMenu = "true"
 +++
 
 Ahmed Hüsrev Efendi, 1899 yılında Isparta’da dünyaya gelmiştir. Dedesi Isparta vâlilerinden Hacı Edhemzade Ali Ağa’dır. Soyu anne tarafından Hz. Hüseyin yoluyla Peygamber Efendimiz (asm)’a, baba tarafından ise Hz. Ebû Bekir (ra)’a dayanmaktadır. Çocukluk ve gençlik devresinde gerek dinî, gerek dünyevî açıdan iyi bir eğitim gördü. Küçük yaşlardan itibaren yardımseverliği, takvası ve sünnet-i seniyyeye bağlılığı sebebiyle arkadaş çevresinde kendisine Hızır denilirdi. Kurtuluş Savaşı sırasında Yunanlılar’a karşı çarpışırken Manisa civarında esir düşerek üç sene Yunanistan’da esir kalmıştır. 1923’te esaretten döndükten sonra, sekiz sene kadar değişik memuriyetlerde bulundu. Büyük İslam âlimi ve âhirzamanın büyük iman müceddidi Bediüzzaman Said Nursî Hazretleri’nin Isparta’ya gelmesi Ahmed Hüsrev Efendi’nin hayatında dönüm noktası oldu. 1931 yılında Bediüzzaman’la tanıştıktan sonra, derhal memuriyeti bırakarak kendini tamamen Kur’ân’ın hizmetine vakfetti ve Üstad Bediüzzaman’ın en büyük yardımcısı ve yaveri oldu. Bediüzzaman Hazretleri onun gelişini, “**<span style="color:red"> Isparta’da ciddî, gayretli, metin, dirayetli bir arkadaş, bir talebe arıyordum. Beş sene bekledim, bulmadım. Sen o talebelerden birisi olmaya çalış. </span>** **<span style="text-decoration:underline; color:red"> Sende öyle bir istidad hissediyorum. <a name="source_1" href="#ref_1"> [1] </a> </span>** ifadeleriyle, aradığı talebesini bulmanın mutluluğuyla karşıladı.

@@ -8,6 +8,7 @@ tags = [
 categories = [
     
 ]
+isMenu = "true"
 +++
 
 **1899**&#8211; Isparta’da dünyaya gelmesi.

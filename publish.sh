@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 hugo
 git add *
-git commit -m "some changes v10"
+git commit -m "arama butonu, içerik.."
 git push

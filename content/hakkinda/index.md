@@ -8,6 +8,7 @@ tags = [
 categories = [
     
 ]
+isMenu = "true"
 +++
 
 1899 Isparta doğumlu olan Ahmed Hüsrev Altınbaşak, risalelerin neşrinde büyük hizmet ve fedâ­kâr­lıklar göstermiştir. Bundan dolayı Hazret-i Üstad tarafından kendisine “**Risale-i Nur’un Kahramanı**” ünvanı verilmiştir. Üstad Bediüzzaman Barla, Kastamonu ve Emirdağ gibi vatanın muhtelif köşelerinde sürgünde ve sıkı takip altında tutulurken, Hüsrev Efendi ondan gelen emirler doğrultusunda Risale-i Nur neşriyatını ve diğer Nur Hizmetlerini Isparta merkezli olarak sevk ve idare ederdi. Neşirdeki bu fevkalade muvaffakiyetlerinden dolayı Üstad Bediüzzaman’ın; “_Senin yazın, benim yazımdan ne derece ziyade ve neşre faideli ise, hayatın dahi Hizmet-i Nûriye’de benim bu azablı hayatımdan o derece faidelidir. Eğer benim elimden gelseydi, hayatımdan ve sıhhatimden size memnuniyetle verirdim._” gibi iltifatlarına mazhar olmuştur.
