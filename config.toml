@@ -6,7 +6,7 @@ canonifyurls = true
 paginate = 20
 toc = true
 publishDir = "docs"
-disqusShortname = "disqus_dSP26bU66V"
+disqusShortname = "https-ahmethusrevaltinbasak-github-io-ustad-1"
 
 [taxonomies]
   tag = "tags"
