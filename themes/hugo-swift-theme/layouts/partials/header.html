@@ -65,23 +65,24 @@
     </ul>-->
 
     {{ $currentPage := . }}
+    {{ $currentPage.URL }}
 
     <a href="/">
-        <img src="/img/logo-resimli-kirmizi.png" style="display: flex; justify-content: center; align-items: center;">
+        <img src="{{ .Site.BaseURL}}/img/logo-resimli-kirmizi.png" style="display: flex; justify-content: center; align-items: center;">
     </a>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <div class="topnav" id="myTopnav">
-        <a href="/" class="{{ if eq $currentPage.URL "/" }}active{{ end }}">Ana Sayfa</a>
-        <a href="/arama" class="{{ if eq $currentPage.URL "/arama/" }}active{{ end }}">
+        <a href="{{ .Site.BaseURL}}/" class="{{ if eq $currentPage.URL "/" }}active{{ end }}">Ana Sayfa</a>
+        <a href="{{ .Site.BaseURL}}/arama" class="{{ if eq $currentPage.URL "/arama/" }}active{{ end }}">
         <i class="fa fa-search" ></i> Arama
         </a>
-        <a href="/categories" class="{{ if eq $currentPage.URL "/categories/" }}active{{ end }}">İçindekiler</a>
-        <a href="/alintilar" class="{{ if eq $currentPage.URL "/alintilar/" }}active{{ end }}" >Alıntılar</a>
-        <a href="/kisaca-hayati" class="{{ if eq $currentPage.URL "/kisaca-hayati/" }}active{{ end }}" >Kısaca Hayatı</a>
-        <a href="/kronoloji" class="{{ if eq $currentPage.URL "/kronoloji/" }}active{{ end }}" >Kronoloji</a>
-        <a href="/hakkinda" class="{{ if eq $currentPage.URL "/hakkinda/" }}active{{ end }}" >Hakkında</a>
+        <a href="{{ .Site.BaseURL}}/categories" class="{{ if eq $currentPage.URL "/categories/" }}active{{ end }}">İçindekiler</a>
+        <a href="{{ .Site.BaseURL}}/alintilar" class="{{ if eq $currentPage.URL "/alintilar/" }}active{{ end }}" >Alıntılar</a>
+        <a href="{{ .Site.BaseURL}}/kisaca-hayati" class="{{ if eq $currentPage.URL "/kisaca-hayati/" }}active{{ end }}" >Kısaca Hayatı</a>
+        <a href="{{ .Site.BaseURL}}/kronoloji" class="{{ if eq $currentPage.URL "/kronoloji/" }}active{{ end }}" >Kronoloji</a>
+        <a href="{{ .Site.BaseURL}}/hakkinda" class="{{ if eq $currentPage.URL "/hakkinda/" }}active{{ end }}" >Hakkında</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
