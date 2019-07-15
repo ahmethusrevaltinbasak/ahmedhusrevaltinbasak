@@ -1,0 +1,39 @@
+<li class = 'duo post_item'>
+  <a class = 'show' href='{{ .Permalink }}' title = '{{ .Title }}'
+     style = 'background-image: url({{ $.Site.BaseURL }}img/{{ .Params.image }}); justify-content: center; align-items: center; '>
+    {{if eq (.Params.image) "" }}
+      <h1 class="title">{{ .Title}}</h1>
+    {{end}}
+
+    <!-- kategori url title problemi için -->
+    {{ $currentPage := . }}
+    {{ if hasPrefix $currentPage.URL "/categories/"  }}
+      <h1 class="title">{{ .Title}}</h1>
+    {{ end }}
+
+  </a>
+  <div class = 'excerpt'>
+    {{ with .Params.tags -}}
+      <p class = 'post_tag'>{{ range . }}
+        <a href = '{{ $.Site.BaseURL }}tags/{{ . | urlize }}'>{{ . }}</a>
+      {{ end }}</p>
+    {{- end }}
+    {{ if not (hasPrefix $currentPage.URL "/categories/")  }}
+      <h3 class = 'post_link'>
+        <a href='{{ .Permalink }}'>{{ .Title  }}</a>
+      </h3>
+    {{ end }}
+    <p class = 'pale'>{{ .Summary | truncate 90 }}</p>
+  </div>
+</li>
+
+<style>
+
+
+  .title {
+    color: white;
+    text-align: center;
+    margin: auto 0px;
+    z-index: 99;
+  }
+</style>

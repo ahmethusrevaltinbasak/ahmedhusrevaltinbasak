@@ -1,0 +1,16 @@
+
+<figure class="centerElement" id="{{.Get `id` }}" >
+    <a href="{{.Get `link`}}">
+    <img src="{{.Get `src` }}"
+         alt="{{.Get `caption` }}"></a>
+    <figcaption>
+        <p>{{.Get "caption" }}</p>
+    </figcaption>
+
+</figure>
+
+<style>
+    .centerElement {
+        text-align: center;
+    }
+</style>

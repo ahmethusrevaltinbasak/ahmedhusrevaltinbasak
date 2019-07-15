@@ -1,0 +1,60 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+<script defer src ='{{ .Site.BaseURL }}js/custom_slider.js'></script>
+
+<div class="owl-carousel owl-theme">
+    <div class="item">
+        <a href = "{{ .Site.BaseURL }}ikinci-ustad" >
+            <img class="sliderImage" src="/img/nur-hizmetinin-basindaki-ikinci-ustad.jpg">
+        </a>
+    </div>
+    <div class="item">
+        <a href="{{ .Site.BaseURL}}husrev-efendinin-bediuzzamani-tarifi">
+            <img class="sliderImage" src="/img/husrev-efendinin-bediuzzamani-tarifi.jpg">
+        </a>
+    </div>
+    <div class="item">
+        <a href="{{ .Site.BaseURL}}nur-hizmetinde-idareciye-ihtiyac-var-mi">
+            <img class="sliderImage" src="/img/nur_hizmetinde_idareciye_ihtiyac_var_mi.jpg">
+        </a>
+    </div>
+</div>
+
+
+<ul class='posts flex wrap blog' id = 'posts'>
+  {{- range sort (.Paginator 8).Pages }}
+    {{ partial "excerpt.html" . }}
+  {{- end }}
+</ul>
+{{ partial "pager.html" . }}
+
+
+<style>
+  .image {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+    margin: 15px auto;
+    padding: 0;
+  }
+  .owl-carousel .owl-item img {
+    margin-top: 20px;
+  }
+
+  .owl-theme .owl-nav {
+      margin-top: 0px;
+  }
+
+  .item {
+      max-width: 1024px;
+      margin: 0 auto;
+  }
+
+  @media screen and (max-width: 770px) {
+      .item {
+          /*margin-left: 30px;
+          margin-right: 30px;*/
+      }
+  }
+
+</style>

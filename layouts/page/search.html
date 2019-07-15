@@ -1,0 +1,61 @@
+{{ define "searchBlock" }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+
+    form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+
+    form.example button:hover {
+        background: #0b7dda;
+    }
+
+    form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script defer src="{{ "js/search.js" | absURL }}"></script>
+
+
+<div class="my-auto">
+    <form class="example" action="{{ "arama" | absURL }}" style="margin:20px auto; max-width:600px">
+        <input type="text" placeholder="Ara.." name="s">
+    </form>
+
+    <div id="search-results" style="margin:20px auto; max-width:600px">
+        <h3>Eşlenen İçerikler</h3>
+    </div>
+</div>
+
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+        <h4><a href="${link}">${title}</a></h4>
+        <p>${snippet}</p>
+        ${ isset tags }<p>Etiketler: ${tags} </p>${ end }
+        ${ isset categories }<p>Kategoriler: ${categories}</p>${ end }
+    </div>
+</script>
+{{ end }}
