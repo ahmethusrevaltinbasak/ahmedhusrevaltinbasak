@@ -1,4 +1,4 @@
-baseurl = "https://ahmethusrevaltinbasak.github.io/ahmedhusrevaltinbasak/"  # Include trailing slash
+baseurl = "https://ahmethusrevaltinbasak.github.io/ustad/"  # Include trailing slash
 title = "Ahmed Hüsrev Altınbaşak"
 theme = "hugo-swift-theme"
 author = "Hayrat Vakfı"
