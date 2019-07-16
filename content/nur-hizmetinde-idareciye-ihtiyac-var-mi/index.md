@@ -12,7 +12,10 @@ categories = [
     "Bediüzzaman'ın Halefi"
 ]
 weight = 120
+audioSrc = "/audio/nur-hizmetinde-idareciye-ihtiyac-var-mi.mp3"
 +++
+
+{{< audio src="/audio/nur-hizmetinde-idareciye-ihtiyac-var-mi.mp3" width="100%" >}}
 
 Dinimizin ehemmiyetle üzerinde durduğu mevzulardan biri de Müslümanların birlik ve beraberliğini sağlayan idareciler etrafında toplanmalarıdır. Pek çok âyet ve hadis-i şerifler bizlere idare ve itaatin önemini ve mü’minlerden oluşan -küçük büyük- her çeşit topluluğun başında bir idareci bulunmasının fevkalâde lüzum ve ehemmiyetini göstermektedir. Allahü Teâlâ Kur’ân-ı Kerîm’de şöyle buyuruyor:
 

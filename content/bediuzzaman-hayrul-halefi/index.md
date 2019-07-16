@@ -12,12 +12,16 @@ categories = [
     "Bediüzzaman'ın Halefi"
 ]
 weight = 100
+audioSrc = "/audio/bediuzzaman-hayrul-halefi.mp3"
 +++
+
+
 
 
 >Risale-i Nur ‘da Hüsrev Efendi’nin ileride Bediüzzaman Hazretleri’nin davasını devam ettirecek hayru’l-halefi olduğunu gösteren yerleri bir arada sunuyoruz. 
 
 
+{{< audio src="/audio/bediuzzaman-hayrul-halefi.mp3" width="100%" >}}
 # Risale-i Nur’dan Hüsrev Efendi’ye İşaret Eden Bahisler
 
 <figure style="float:left; width: 147px;">

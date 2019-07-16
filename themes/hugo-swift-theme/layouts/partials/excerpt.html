@@ -13,12 +13,20 @@
 
   </a>
   <div class = 'excerpt'>
+      {{ if ne (string .Params.audioSrc) "" }}
+          <audio controls="" class="audio_controls " preload="metadata" style="width:100%;">
+              <source src="{{.Params.audioSrc}}">
+          </audio>
+      {{end}}
     {{ with .Params.tags -}}
       <p class = 'post_tag'>{{ range . }}
         <a href = '{{ $.Site.BaseURL }}tags/{{ . | urlize }}'>{{ . }}</a>
       {{ end }}</p>
     {{- end }}
     {{ if not (hasPrefix $currentPage.URL "/categories/")  }}
+
+
+
       <h3 class = 'post_link'>
         <a href='{{ .Permalink }}'>{{ .Title  }}</a>
       </h3>

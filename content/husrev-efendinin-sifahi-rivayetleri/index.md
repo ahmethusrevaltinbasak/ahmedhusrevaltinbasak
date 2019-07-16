@@ -11,8 +11,9 @@ categories = [
     "Bediüzzaman'ın Halefi"
 ]
 weight = 155
+audioSrc = "/audio/husrev-efendinin-sifahi-rivayetleri.mp3"
 +++
-
+{{< audio src="/audio/husrev-efendinin-sifahi-rivayetleri.mp3" width="100%" >}}
 Bediüzzaman Hazretleri’nin, Hüsrev Efendi’nin kendisinden sonra  **hayru’l-halefi**  olacağına işaret eden Risale-i Nur’daki ifadeleri gibi pek çok beyanları vardır. Şimdi de Bediüzzaman Hazretleri’nin, Hüsrev Efendi’yi kendi yerine bir hayru’l-halef olarak bıraktığına dair Hüsrev Efendi’nin talebelerine şifâhî olarak anlattığı rivayetlere yer vereceğiz.
 
 Hüsrev Efendi, hâlen hayatta olan yakın talebelerine Bediüzzaman Hazretleri ile arasında geçen şu görüşmeyi çok defalar anlatmıştır:

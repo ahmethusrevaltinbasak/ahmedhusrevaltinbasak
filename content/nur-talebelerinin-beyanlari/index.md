@@ -17,7 +17,10 @@ categories = [
     "Bediüzzaman'ın Halefi"
 ]
 weight = 150
+audioSrc = "/audio/nur-talebelerinin-beyanlari.mp3"
 +++
+
+{{< audio  src="/audio/nur-talebelerinin-beyanlari.mp3" width="100%" >}} 
 
 # Zübeyr Gündüzalp’in Hüsrev Efendi’ye Mektubu
 Bediüzzaman Hazretleri’ne ömrünün son on yılı içinde tam bir sadakatle hizmet eden Zübeyr Ağabey genç yaşta vefat etmezden birkaç ay evvel Hüsrev Efendi’ye yazmış olduğu bir mektubda onun Nur Camiasının başındaki vazifedarlığına temas ederek şu satırları kaleme almıştır:

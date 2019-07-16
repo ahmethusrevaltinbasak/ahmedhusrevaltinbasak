@@ -9,7 +9,7 @@
 
 
     <div class="topnav" id="myTopnav">
-        <a href="{{ .Site.BaseURL}}" class="{{ if eq $currentPage.URL "/" }}active{{ end }}">Ana Sayfa</a>
+        <a href="{{ .Site.BaseURL}}" class="{{ if eq $currentPage.URL "/" }}activedLink{{ end }}">Ana Sayfa</a>
         <div class="dropdown">
             <button class="dropbtn">
                 İçindekiler
@@ -20,13 +20,12 @@
                     <a href="/categories/{{ $key | urlize }}">{{ replace (replace ($key | title) "-" " ") "I" "i" }}</a>
                 {{ end }}
             </div>
-
         </div>
-        <a href="{{ .Site.BaseURL}}alintilar" class="{{ if eq $currentPage.URL "/alintilar/" }}active{{ end }}" >Alıntılar</a>
-        <a href="{{ .Site.BaseURL}}kisaca-hayati" class="{{ if eq $currentPage.URL "/kisaca-hayati/" }}active{{ end }}" >Kısaca Hayatı</a>
-        <a href="{{ .Site.BaseURL}}kronoloji" class="{{ if eq $currentPage.URL "/kronoloji/" }}active{{ end }}" >Kronoloji</a>
-        <a href="{{ .Site.BaseURL}}hakkinda" class="{{ if eq $currentPage.URL "/hakkinda/" }}active{{ end }}" >Hakkında</a>
-        <a href="{{ .Site.BaseURL}}arama" class="{{ if eq $currentPage.URL "/arama/" }}active{{ end }}">
+        <a href="{{ .Site.BaseURL}}alintilar" class="{{ if eq $currentPage.URL "/alintilar/" }}activedLink{{ end }}" >Alıntılar</a>
+        <a href="{{ .Site.BaseURL}}kisaca-hayati" class="{{ if eq $currentPage.URL "/kisaca-hayati/" }}activedLink{{ end }}" >Kısaca Hayatı</a>
+        <a href="{{ .Site.BaseURL}}kronoloji" class="{{ if eq $currentPage.URL "/kronoloji/" }}activedLink{{ end }}" >Kronoloji</a>
+        <a href="{{ .Site.BaseURL}}hakkinda" class="{{ if eq $currentPage.URL "/hakkinda/" }}activedLink{{ end }}" >Hakkında</a>
+        <a href="{{ .Site.BaseURL}}arama" class="{{ if eq $currentPage.URL "/arama/" }}activedLink{{ end }}">
         <i class="fa fa-search" ></i> Arama
         </a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -94,8 +93,9 @@
         font-size: 17px;
     }
 
-    .active {
+    .activedLink {
         color: white;
+        /*background-color: #4CAF50;*/
     }
 
     .topnav .icon {

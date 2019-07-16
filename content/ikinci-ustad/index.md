@@ -13,7 +13,11 @@ tags = [
 ]
 date = "2014-09-29"
 weight = 110
+audioSrc = "/audio/ikinci-ustad.mp3"
+
 +++
+
+{{< audio src="/audio/ikinci-ustad.mp3" width="100%" >}}
 
 Hüsrev Efendi’nin, Üstad Bediüzzaman Hazretleri’nin halefi olması ve ondan sonra Nur Talebeleri’nin ikinci bir üstadları olması Hazret-i Üstad’ın vefatından sonra ortaya çıkmış yeni bir durum değildi. Uzun yıllar Bediüzzaman Hazretleri’nin en büyük yardımcısı olarak büyük bir ihlas, iktidar ve fedâkârlıkla îfa ettiği hizmetlerin yanında, Hazret-i Üstad’ın da Hüsrev Efendi’yi fiilen cemaatin merkezine alması onu daha ellili yıllarda Üstad-ı Sânî, ikinci bir üstad mevkiine getirmişti. Kitabın **“Hüsrev Efendi’nin Nur Dairesindeki Mühim Vazifeleri”**ve **“Hüsrev Efendi’nin Üstad-ı Sânî Ünvanı”** başlıkları altında bu mevzuda gerekli izahlar yapılmıştır.
 

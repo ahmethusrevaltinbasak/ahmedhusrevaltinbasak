@@ -1,5 +1,6 @@
 baseurl = "https://ahmethusrevaltinbasak.github.io/ustad/"  # Include trailing slash
 title = "Ahmed Hüsrev Altınbaşak"
+description = "Üstad Said-i Nursi&#039;nin Hayru&#039;l-Halefi"
 theme = "hugo-swift-theme"
 author = "Hayrat Vakfı"
 canonifyurls = true
